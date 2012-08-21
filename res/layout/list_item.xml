@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:padding="5dip"
+    >
+    
+    <TextView 
+        android:id="@+id/tv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="xxx"
+        />
+    
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        >
+        <ImageView 
+            android:id="@+id/iv"
+            android:layout_width="100dip"
+            android:layout_height="30dip"
+            android:background="#ff6600"
+            />
+        <TextView 
+            android:id="@+id/list_item_days"
+            android:layout_width="wrap_content"
+            android:layout_height="30dip"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            />
+    </RelativeLayout>
+    
+</LinearLayout>
